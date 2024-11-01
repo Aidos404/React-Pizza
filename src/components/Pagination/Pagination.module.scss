@@ -1,0 +1,27 @@
+.root{
+   li{
+    display: inline-flex;
+    &.selected{
+    background-color:  #fe5f15;
+    color: #fff;
+    }
+   a {
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    line-height: 42px;
+    border: 1px solid #fe5f15;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    color: #fe5f15;
+
+    &:hover{
+    background-color:  #fe5f15;
+    color: #fff;  
+   }
+    }
+   }
+  
+}
